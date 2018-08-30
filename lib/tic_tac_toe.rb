@@ -1,6 +1,6 @@
 class TicTacToe
 
-  def board(board)
+  def initialize(board)
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
   
