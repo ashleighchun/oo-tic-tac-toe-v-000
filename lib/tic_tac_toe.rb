@@ -8,7 +8,7 @@ class TicTacToe
     @board
   end
   
-  
+
 
 
 end
