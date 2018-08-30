@@ -1,3 +1,3 @@
 class TicTacToe
-  
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
