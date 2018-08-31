@@ -30,14 +30,14 @@ def move(index, value="X")
 end
 
 def position_taken?(index)
-  !(@board[index].nil? || @board[index] == " ")
+  if !(@board[index].nil? || @board[index] == " ")
+    return true 
+  else
+    false
 end
 
 def valid_move?(index)
-  if index.between?(0,8) && !position_taken?(@board, index)
-    return true 
-  else 
-    false
+  index.between?(0,8) && !position_taken?(@board, index)
 end
 
 end
