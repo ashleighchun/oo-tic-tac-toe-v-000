@@ -25,7 +25,7 @@ def input_to_index(position)
   position.to_i - 1 #.to_i changes to an integer
 end
 
-def move(board, index, value="X")
+def move(index, value="X")
  @board[index] = value 
 end
 
