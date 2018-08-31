@@ -117,7 +117,7 @@ end
 def winner
  winning_combo = won?
  if winning_combo 
-  [winning_combo[0]]
+  @board[winning_combo[0]]
   end
 end  
 
