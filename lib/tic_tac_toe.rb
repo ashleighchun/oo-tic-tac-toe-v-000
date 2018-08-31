@@ -13,9 +13,11 @@ WIN_COMBINATIONS = [
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
-  def display_board(board)
-  @board.
+  def display_board=(board)
+    @board = board
   end
-
-
+  
+  def display_board
+    @board
+  end
 end
