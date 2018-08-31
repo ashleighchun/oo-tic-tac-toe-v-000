@@ -52,10 +52,10 @@ def turn_count
   counter
 end
 
-def current_player(board)
-  if turn_count(board) % 2 == 0
+def current_player
+  if turn_count % 2 == 0
   "X"
-else turn_count(board) % 2 == 1 
+else turn_count % 2 == 1 
   "O"
 end
 end
