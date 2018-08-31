@@ -42,7 +42,15 @@ def valid_move?(index)
   end
 end
 
-
+def turn_count(@board)
+  counter = 0 
+  board.each do |current_player|
+    if current_player == "X" || current_player == "O"
+      counter += 1 
+    end
+  end
+  counter
+end
 
 
 
