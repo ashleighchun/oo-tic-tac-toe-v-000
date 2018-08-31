@@ -30,10 +30,8 @@ def move(index, value="X")
 end
 
 def position_taken?(index)
-  if !(@board[index].nil? || @board[index] == " ")
-    return true 
-  else
-    false
+  !(@board[index].nil? || @board[index] == " ")
+
 end
 
 def valid_move?(index)
