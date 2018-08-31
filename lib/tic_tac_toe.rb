@@ -98,7 +98,11 @@ def won?
 end
 
 
-
+def full?
+  @board.none? do |array|
+    array == " " || array == ""
+  end
+end
 
 
 end
