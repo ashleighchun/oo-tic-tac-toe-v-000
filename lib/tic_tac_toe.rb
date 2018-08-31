@@ -127,7 +127,7 @@ def play
     turn
   end
   if won?
-    puts "Congratulations #{winner(board)}!"
+    puts "Congratulations #{winner(@board)}!"
   elsif draw? 
     puts "Cat's Game!"
   end
