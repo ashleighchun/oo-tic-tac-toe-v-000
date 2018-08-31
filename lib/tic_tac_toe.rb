@@ -21,7 +21,10 @@ def display_board
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
 end
 
-def input_to_index
+def input_to_index(position) 
+  position.to_i - 1 #.to_i changes to an integer
+end
+
 end
 
   
