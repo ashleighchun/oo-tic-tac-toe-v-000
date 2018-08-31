@@ -114,6 +114,12 @@ def over?
  won? || draw?
 end
   
+def winner
+ winning_combo = won?
+ if winning_combo 
+   @board[winning_combo[0]]
+  end
+end  
 
 end
   
