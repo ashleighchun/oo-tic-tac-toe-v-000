@@ -21,3 +21,4 @@ WIN_COMBINATIONS = [
     @board
   end
 end
+
