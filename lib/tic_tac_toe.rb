@@ -25,6 +25,8 @@ def input_to_index(position)
   position.to_i - 1 #.to_i changes to an integer
 end
 
+
+
 end
 
   
